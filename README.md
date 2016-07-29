@@ -2,24 +2,30 @@
 
 Myo Armband + PO Paraguay
 ========
-Aca escribir una descripción de MyPO
+placa que interconecta todas las etapas del sistema, fue denominada MyPO, y es la interfaz entre el sensor Myo y la prótesis avanzada. Está compuesta por un circuito Arduino, un módulo Bluetooth, regulador de tensión para el bluetooth y una serie de conectores que permiten conectar los motores y la fuente de forma segura. Seguidamente se detallan todas las partes que componen la placa MyPO.
 
 Componentes
 ----
 
 * Placa MyPO 
-* Bluetooth 4.0 
-* Arduino Pro Mini
+* Bluetooth BLE HM-11 CC2541 SoC 
+* Arduino Pro Mini 328 5V/16Mhz.
 * MicroServo 
 
     ```
     
-    *   Servo blabla
+    *  3 x TowerPro MG92B.  (Torque (4.8v): 3.1kg/cm - (6.0v): 3.5kg/cm)
     
     ```
     
-* Bateria Li-Ion 1S 2500mAh
-* Modulo de carga/descarga de bateria
+* Bateria Li-Ion 1S 2500mAh 18650 
+* Modulo de carga/descarga con protección de bateria 
+
+
+    ```
+    *  http://goo.gl/Kd2iIu 
+    
+    ```
     
 
 Caracteristicas
@@ -55,7 +61,5 @@ Authors
 ----------
 * Mateo Acosta - macosta@po.com.py
 
-Cool Stuff
--------------------
-Hola mundo
+
 
