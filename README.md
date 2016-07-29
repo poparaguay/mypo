@@ -10,15 +10,15 @@ Componentes
 * Placa MyPO
     ```
     
-    *   Diseñada en PO Paraguay fabricada en https://oshpark.com/, en un plazo de 12 días, solo es necesario subir el archivo "MyPO.brd" a la web de la empresa, fabrican 3 unidades con una excelente calidad.
+    Diseñada en PO Paraguay fabricada en https://oshpark.com/, solo es necesario subir el archivo "MyPO.brd" a la web.
     
-    *   Permite grabar el bluetooth desde la placa de forma externa.
+    Permite grabar el bluetooth desde la placa de forma externa.
     
     ```
 * Bluetooth BLE HM-11 CC2541 SoC 
     ```
     
-    *   Se debe cambiar el firmware de fabrica por el que recomienda en el siguiente link utilizando un arduino UNO como quemador. https://github.com/RedBearLab/CCLoader
+    *   Cambiar Firmware según el siguiente link. https://github.com/RedBearLab/CCLoader
     
     ```
 * Arduino Pro Mini 328 5V/16Mhz.
