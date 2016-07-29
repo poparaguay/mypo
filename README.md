@@ -18,8 +18,10 @@ Componentes
 * Bluetooth BLE HM-11 CC2541 SoC 
     ```
     
-    *   Cambiar Firmware según el siguiente link. https://github.com/RedBearLab/CCLoader
+    Cambiar Firmware según el siguiente link. https://github.com/RedBearLab/CCLoader
     
+    Grabar el archivo "MyoBridge_CC2541.hex" al chip CC2541
+     
     ```
 * Arduino Pro Mini 328 5V/16Mhz.
 * MicroServo 
