@@ -1,49 +1,50 @@
 # MyPO
 
-rodi-web
+Myo Armband + PO Paraguay
 ========
 Aca escribir una descripción de MyPO
 
-API
+Componentes
 ----
 
-* Blink
+* Placa MyPO 
+* Bluetooth 4.0 
+* Arduino Pro Mini
+* MicroServo 
+    ```
+    *   Servo blabla
+    ```
+* Bateria Li-Ion 1S 2500mAh
+* Modulo de carga/descarga de bateria
+    
+
+Caracteristicas
+----
+
+* No necesita Computadora externa para funcionar
+* El procesamiento de la señal se realiza en el brazalete Myo 
+* Utiliza la libreria MyoBridge 
+    ```
+    *  https://github.com/vroland/MyoBridge 
+    ```
+* Control independiente hasta 3 servomotores: 
+    ```
+    *  SERVO1 : Port 5
+    *  SERVO2 : Port 6
+    *  GPIO1  : Port 9
+    ```
+* Comunicación Virtual (Bluetooth - Arduino)
+    ```
+    *  RX Arduino to TX Bluetooth : Port 2
+    *  TX Arduino to RX Bluetooth : Port 3
+    ```
 
     
 
-* Sense
-
-    ```
-
-* Move
-
-    ```
-
-* Sense Light
-
-    ```
-    GET /7/
-    ```
-
-    ```
-    GET /8/<state[0|1]>
-    ```
-
-    Turns the onboard led on or off.
-
-    ie.,
-    ```
-    curl --get http://192.168.4.1:1234/8/0/    // turns the onboard led off
-    curl --get http://192.168.4.1:1234/8/1/    // turns the onbboard led on
-    ```
-
-
 Authors
 ----------
-* Martin Abente Lahaye - tch@sugarlabs.org
-* Gary Servin - garyservin@gmail.com
+* Mateo Acosta - macosta@po.com.py
 
 Cool Stuff
 -------------------
-I recommend Turtle Blocks Javascript as a client for RoDi-web. Grab the latest
-bits from https://github.com/walterbender/turtleblocksjs. Don't forget to load
+
