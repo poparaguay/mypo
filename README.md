@@ -2,7 +2,7 @@
 
 Myo Armband + PO Paraguay
 ========
-placa que interconecta todas las etapas del sistema, fue denominada MyPO, y es la interfaz entre el sensor Myo y la prótesis avanzada. Está compuesta por un circuito Arduino, un módulo Bluetooth, regulador de tensión para el bluetooth y una serie de conectores que permiten conectar los motores y la fuente de forma segura. Seguidamente se detallan todas las partes que componen la placa MyPO.
+Placa que interconecta todas las etapas del sistema, denominada MyPO, es la interfaz entre el sensor Myo y una prótesis avanzada. Está compuesta por un circuito Arduino y un módulo Bluetooth 4.0 con el firmware modificado. Seguidamente se detallan todas las partes que componen la placa MyPO.
 
 Componentes
 ----
@@ -57,7 +57,7 @@ Caracteristicas
 
     
 
-Authors
+Autor
 ----------
 * Mateo Acosta - macosta@po.com.py
 
