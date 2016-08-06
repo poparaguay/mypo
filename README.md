@@ -1,4 +1,4 @@
-# MyPO
+# MyPO Board
 
 Myo Armband + PO Paraguay
 ========
@@ -28,7 +28,7 @@ Componentes
 
     ```
     
-    *  3 x TowerPro MG92B.  (Torque (4.8v): 3.1kg/cm - (6.0v): 3.5kg/cm)
+    3 x TowerPro MG92B.  (Torque (4.8v): 3.1kg/cm - (6.0v): 3.5kg/cm)
     
     ```
     
@@ -37,7 +37,7 @@ Componentes
 
 
     ```
-    *  http://goo.gl/Kd2iIu 
+    http://goo.gl/Kd2iIu 
     
     ```
     
