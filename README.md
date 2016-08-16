@@ -40,6 +40,18 @@ Componentes
     http://goo.gl/Kd2iIu 
     
     ```
+* Regulador 3.3V
+    ```
+AMS11171A LOW DROPOUT VOLTAGE REGULATOR 
+http://www.advanced-monolithic.com/pdf/ds1117.pdf
+    ```
+
+
+*Componentes pasivos SMD  (0805: 0.08" × 0.05" (2,0 mm × 1,25 mm)  1/8 W)
+    ```
+- Resistencias 1R/2R, donde 1R es el valor de cualquier resistencia y 2R es el doble.
+- Capacitor de 100nF
+    ```
     
 
 Caracteristicas
