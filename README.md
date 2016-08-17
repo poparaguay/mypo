@@ -2,25 +2,25 @@
 
 Myo Armband + PO Paraguay
 ========
-Placa que interconecta todas las etapas del sistema, denominada MyPO, es la interfaz entre el sensor Myo y una prótesis avanzada. Está compuesta por un circuito Arduino y un módulo Bluetooth 4.0 con el firmware modificado. Seguidamente se detallan todas las partes que componen la placa MyPO.
+A board that connects the different parts of the system, demonimated MyPo. It is the interface between the Myo Armband sensor and the advanced prosthetic. It is composed of an Arduino board and a Bluetooth 4.0 module, with a custom firmware. Next are the different parts that compose this board.
 
-Componentes
+Components
 ----
 
-* Placa MyPO
+* MyPo Board
     ```
     
-    Diseñada en PO Paraguay fabricada en https://oshpark.com/, solo es necesario subir el archivo "MyPO.brd" a la web.
+    Designed by Po Paraguay and manufactured by https://oshpark.com/ by uploading the mypo.brd file to the webpage
     
-    Permite grabar el bluetooth desde la placa de forma externa.
+    Allows to flash the bluetooth module from the board itself
     
     ```
 * Bluetooth BLE HM-11 CC2541 SoC 
     ```
     
-    Cambiar Firmware según el siguiente link. https://github.com/RedBearLab/CCLoader
+    Flash the board by following these steps: https://github.com/RedBearLab/CCLoader
     
-    Grabar el archivo "MyoBridge_CC2541.hex" al chip CC2541
+    Flash this file  "MyoBridge_CC2541.hex" to the CC2541 chip
      
     ```
 * Arduino Pro Mini 328 5V/16Mhz.
@@ -32,38 +32,38 @@ Componentes
     
     ```
     
-* Bateria Li-Ion 1S 2500mAh 18650 
-* Modulo de carga/descarga con protección de bateria 
+* Battery: Li-Ion 1S 2500mAh 18650 
+* Charge/Discharge module with voltage protection:
 
 
     ```
     http://goo.gl/Kd2iIu 
     
     ```
-* Regulador 3.3V
+* 3.3V Regulator
     ```
 AMS11171A LOW DROPOUT VOLTAGE REGULATOR 
 http://www.advanced-monolithic.com/pdf/ds1117.pdf
     ```
 
 
-*Componentes pasivos SMD  (0805: 0.08" × 0.05" (2,0 mm × 1,25 mm)  1/8 W)
+*Passive components SMD  (0805: 0.08" × 0.05" (2,0 mm × 1,25 mm)  1/8 W)
     ```
-- Resistencias 1R/2R, donde 1R es el valor de cualquier resistencia y 2R es el doble.
-- Capacitor de 100nF
+- Resistors 1R/2R, where 1R is the value of any resistor and 2R is the double of that
+-  100nF Capacitor
     ```
     
 
-Caracteristicas
+Characteristics
 ----
 
-* No necesita Computadora externa para funcionar
-* El procesamiento de la señal se realiza en el brazalete Myo 
-* Utiliza la libreria MyoBridge 
+* Does not need an external computer to run
+* The actual processing of the data is done by the Myo armband
+* Uses the MyoBridge library:
     ```
     https://github.com/vroland/MyoBridge 
     ```
-* Control independiente hasta 3 servomotores: 
+* Independent control of up to 3 servos: 
     ```
     SERVO1 : Port 5
     
@@ -72,7 +72,7 @@ Caracteristicas
     GPIO1  : Port 9
     
     ```
-* Comunicación Virtual (Bluetooth - Arduino)
+* Virtual communication (Bluetooth - Arduino)
     ```
     
     RX Arduino to TX Bluetooth : Port 2
@@ -83,7 +83,7 @@ Caracteristicas
 
     
 
-Autor
+Author
 ----------
 * Mateo Acosta - macosta@po.com.py
 
